@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root{
+    --primary: #304674;
+    --background: #E0ECEC;
+    --secondary: #fdfdfd;
+}
+
+.icon {
+  color: #04112e;
+}
+
+
+
+.scrollbar-custom {
+  scrollbar-width: thin;
+  scrollbar-color: #021641 #d1fae500; /* thumb | track */
+  background-color: none;  
+}
+
+.element::-webkit-scrollbar-button {
+  display: none; /* Hides the buttons */
+  height: 0; /* Ensures no space is occupied */
+  width: 0;
+}
+
+
+/* 
+.stix-two-text-regular {
+  font-family: "STIX Two Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ */
+
+th {
+    border-bottom: 1px solid #dddddd;
+    flex: wrap;
+    align-items: left;
+    font-size: 15px;
+    color: #20232b;
+    text-align: left;
+    padding: 7px;
+}
+
+td{
+    border-bottom: 1px solid #dddddd;
+    padding: 12px;
+    font-size: 13px;
+}
+
+html, body{
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    position: absolute;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    width: 100%;
+}
+
+main{
+    flex-grow: 1;
+}
