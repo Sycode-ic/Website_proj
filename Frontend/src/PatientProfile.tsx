@@ -31,7 +31,7 @@ const PatientProfile = () => {
                         {/* Profile */}
                         <div className="flex flex-col justify-center items-center bg-[var(--background)] border-3 border-[var(--secondary)] rounded-2xl p-2.5 shadow-sm">
                             {/* picture here */}
-                            <img src="Placeholder.jpg" className="w-30 h-30 bg-gray-700 rounded-xl border-3 border-[var(--primary)]">
+                            <img src="Placeholder.jpg" className="w-30 h-30 bg-gray-700 rounded-xl border-3 border-[var(--primary)] object-cover">
                             </img>
 
                             <h2 className="pt-2 text-xl font-semibold"> Name </h2>
