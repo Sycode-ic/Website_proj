@@ -5,11 +5,14 @@ import Header from './Header';
 
 const Dashboard = () => {
 return (
-	<div className="min-h-screen min-w-screen flex bg-[var(--background)]">
-		<title>Dashboard</title>
+	<div className="min-h-screen w-full flex bg-[var(--background)]">
 		
+
+			<title>Dashboard</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
 		<NavBar/>
-		<div className="flex flex-col w-screen">
+		<div className="flex flex-col w-full">
 				
 			<div>
 				<Header/>

@@ -1,7 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Login from "./Login";
 import Dashboard from "./Dashboard";
-import Projects from "./Projects";
 import PatientProfile from "./PatientProfile";
 import PatientList from "./PatientList";
 

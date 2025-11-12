@@ -7,8 +7,13 @@ import Notes from "./Notes";
 const PatientProfile = () => {
     return (
     <div className="min-h-screen w-screen flex bg-[var(--background)]">
-	    	<title>Patient Profile</title>
-		    <NavBar/>
+	    	
+            <head>
+                <title>Patient Profile</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+            </head>
+            
+            <NavBar/>
 
             <div className="flex flex-col w-screen">
                 
@@ -26,8 +31,8 @@ const PatientProfile = () => {
                         {/* Profile */}
                         <div className="flex flex-col justify-center items-center bg-[var(--background)] border-3 border-[var(--secondary)] rounded-2xl p-2.5 shadow-sm">
                             {/* picture here */}
-                            <div className="w-30 h-30 bg-gray-700 rounded-xl">
-                            </div>
+                            <img src="Placeholder.jpg" className="w-30 h-30 bg-gray-700 rounded-xl border-3 border-[var(--primary)]">
+                            </img>
 
                             <h2 className="pt-2 text-xl font-semibold"> Name </h2>
                             <p className="text-sm">Age</p>
