@@ -10,7 +10,7 @@ const NavBar = () => {
     <aside className="w-[80px] flex-shrink-0 bg-[var(--primary)] flex flex-col items-center rounded-r-2xl">
 		<div className="relative top-5 w-15 h-15 bg-gray-300 rounded-full mb-15"></div>
 
-		<nav className="flex flex-col items-center gap-19 w-full text-center justify-center text-black font-medium pt-10">
+		<nav className="flex flex-col items-center gap-15 w-full text-center justify-center text-black font-medium pt-10">
 		
 		<Link to="/dashboard">
 			<MdOutlineDashboard color="white" size={30}/>
