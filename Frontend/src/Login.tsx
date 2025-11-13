@@ -13,9 +13,9 @@ return (
 	{/* Sidebar */}
 	
 	<aside className="w-56 bg-[var(--primary)] flex flex-col items-center">
-		<div className="w-20 h-20 bg-gray-300 rounded-full mb-10 relative top-5"></div>
+		<div className="w-20 h-20 bg-gray-300 rounded-full mb-10 sticky top-5"></div>
 		
-		<nav className="flex flex-col items-center justify-center gap-4 w-full text-center text-black font-medium">
+		<nav className="flex flex-col items-center justify-center my-35 gap-4 w-full text-center text-black font-medium">
 		<button className="py-2 bg-[var(--background)] shadow rounded p-10">Doctor</button>
 		<button onClick={() => navigate("/register")} className="py-2 text-white hover:bg-gray-300 hover:text-black p-10 rounded">Patient</button>
 		</nav>
@@ -30,12 +30,12 @@ return (
 		<input
 			type="text"
 			placeholder="ID"
-			className="border bg-gray-100 text-black p-2 rounded-xl w-full"
+			className="border bg-gray-100 text-black p-2 rounded-2xl w-full"
 		/>
 		<input
 			type="password"
 			placeholder="Password"
-			className="border bg-gray-100 text-black p-2 rounded-xl w-full"
+			className="border bg-gray-100 text-black p-2 rounded-2xl w-full"
 		/>
 
 		<Button text = "Log in" navigationLink = "/dashboard"/>
