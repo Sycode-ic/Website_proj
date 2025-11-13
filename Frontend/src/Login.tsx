@@ -1,7 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import Button from "./Button";
 
 
 const Login = () => {
+	const navigate = useNavigate();
 return (
 	<div className="min-h-screen flex">
 	<head>
@@ -15,7 +17,7 @@ return (
 		
 		<nav className="flex flex-col items-center justify-center gap-4 w-full text-center text-black font-medium">
 		<button className="py-2 bg-[var(--background)] shadow rounded p-10">Doctor</button>
-		<button className="py-2 text-white hover:bg-gray-300 hover:text-black p-10 rounded">Patient</button>
+		<button onClick={() => navigate("/register")} className="py-2 text-white hover:bg-gray-300 hover:text-black p-10 rounded">Patient</button>
 		</nav>
 	</aside>
 

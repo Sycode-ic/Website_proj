@@ -9,7 +9,7 @@ const Button: React.FC<ButtonProps> = ({text, navigationLink}) => {
 const navigate = useNavigate();
 return (
 	<button onClick={() => navigate(`${navigationLink}`)} 
-      className="bg-[var(--primary)] text-white p-2 rounded-full mt-2 text-sm w-full">
+      className="bg-[var(--primary)] text-white p-2 rounded-full mt-2 text-sm w-60">
 
         {text}
 	</button>
