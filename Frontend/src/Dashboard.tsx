@@ -65,7 +65,44 @@ return (
 					<div className={Styles.divStyle}>
 						<div>
 							<h2 className={Styles.h2Style}>Schedule</h2><hr></hr>
-							{/* <Schedule locale = "en-US"/> */}
+						</div>
+						<div className="grid grid-cols-1 sm:grid-cols-7 gap-3 p-3">
+								<div className={Styles.smallboxes}>
+								<span className="text-2xl font-bold text-gray-800">1</span>
+								<span className="text-sm text-gray-500">MON</span>
+								</div>
+
+								<div className={Styles.smallboxes}>
+								<span className="text-2xl font-bold text-gray-800">2</span>
+								<span className="text-sm text-gray-500">TUE</span>
+								</div>
+						
+								<div className={Styles.smallboxes}>
+								<span className="text-2xl font-bold text-gray-800">3</span>
+								<span className="text-sm text-gray-500">WED</span>
+								</div>
+
+								<div className={Styles.smallboxes}>
+								<span className="text-2xl font-bold text-gray-800">4</span>
+								<span className="text-sm text-gray-500">THU</span>
+								</div>
+
+								<div className={Styles.smallboxes}>
+								<span className="text-2xl font-bold text-gray-800">5</span>
+								<span className="text-sm text-gray-500">FRI</span>
+								</div>
+
+								<div className={Styles.smallboxes}>
+								<span className="text-2xl font-bold text-gray-800">6</span>
+								<span className="text-sm text-gray-500">SAT</span>
+								</div>
+
+								<div className={Styles.smallboxes}>
+								<span className="text-2xl font-bold text-gray-800">7</span>
+								<span className="text-sm text-gray-500">SUN</span>
+								</div>
+
+								
 						</div>
 					</div>
 				</div>
